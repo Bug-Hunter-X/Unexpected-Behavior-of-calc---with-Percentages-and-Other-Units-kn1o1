@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug encountered when using the `calc()` function in CSS with a mix of percentage and other units.  The expected result does not match the actual outcome due to how `calc()` handles these units. The `bug.css` file illustrates the problem, while `bugSolution.css` presents a corrected approach.
