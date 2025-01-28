@@ -1,0 +1,1 @@
+The issue stems from how `calc()` interprets percentage values within the context of other units.  Avoid using percentages in conjunction with fixed units like `px` directly within `calc()` if possible, as this can lead to unexpected results.  If possible, calculate the values beforehand or use alternative approaches such as CSS variables to achieve the desired layout.
